@@ -3,7 +3,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)   //all .java file converted to .class file (compilation file) that files are used by cucumber
-@CucumberOptions(features = ".",tags = "")
+@CucumberOptions(features = ".",tags = "@reg")
 public class Run
 {
 
